@@ -1,0 +1,21 @@
+.contacts__name{
+	margin: 20px 0;
+	font-size: 30px;
+}
+
+.map{
+	width: 90%;
+	margin-bottom: 40px;
+}
+
+@media  screen and (max-width: 1023px){
+	.container{
+		width: 730px;
+	}
+}
+
+@media  screen and (max-width: 767px){
+	.container{
+		width: calc(100% - 20px);
+	}
+}
