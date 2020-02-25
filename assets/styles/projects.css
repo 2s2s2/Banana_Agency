@@ -48,11 +48,15 @@
 		flex-wrap: wrap;
 	}
 
-	.block__img{
-		width: 100%;
-	}
-
 	.block{
 		width: 40%;
 	}
+}
+
+@media screen and (max-width: 400px){
+	.project__blocks{
+		width: 100%;
+	}	
+	
+	
 }
